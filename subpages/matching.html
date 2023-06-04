@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>匹配度测试</title>
+    <link rel="stylesheet" href="../css/matching.css">
+</head>
+
+<body>
+    <!-- 页眉区 -->
+    <header id="top">
+        <img class="hleft" src="../images/logo1.png" alt="logo">
+        <img class="hleft" src="../images/name.png" alt="name">
+        <img class="hright" src="../images/welcome.png" alt="welcome">
+    </header>
+    <!-- 页眉区结束 -->
+    <!-- 导航区 -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../subpages/personal statement.html">个人简介</a></li>
+            <li><a href="../subpages/life beliefs.html">人生信念</a></li>
+            <li><a href="../subpages/pabulum.html">生活食粮</a></li>
+            <li><a href="../subpages/fragments of life.html">生活碎片</a><a href=""></a></li>
+        </ul>
+    </nav>
+    <!-- 导航区结束 -->
+    <!-- 主体内容 -->
+    <div id="wrap">
+        <h1>匹配测试</h1>
+        <h2>想测测你我匹配度如何吗？</h2>
+        <p class="word">填写下面表单吧!</p>
+        <!-- 表单部分 -->
+        <form action="">
+            <!-- div，通过class实现表格布局 -->
+            <div class="tableRow">
+                <p><label for="username">昵称：</label></p>
+                <!-- 输入，类型:文本 -->
+                <p><input type="text" id="username" name="username"></p>
+            </div>
+
+            <div class="tableRow">
+                <p><label for="sex">性别：</label>
+                </p>
+                <p>
+                    <!-- 选择标签 -->
+                    <select name="sex" id="">
+                        <option value="女">女</option>
+                        <option value="男">男</option>
+                        <option value="保密">保密</option>
+                    </select>
+                </p>
+            </div>
+
+            <div class="tableRow">
+                <p><label for="constellation">星座：</label></p>
+                <!-- 选择标签 -->
+                <p><select name="constellation" id="">
+                        <option value="风象星座">风象星座：双子座、天秤座、水瓶座</option>
+                        <option value="火象星座">火象星座：白羊座、狮子座、射手座</option>
+                        <option value="土象星座">土象星座：金牛座、处女座、摩羯座 </option>
+                        <option value="水象星座">水象星座：巨蟹座、天蝎座、双鱼座</option>
+                        <option value="保密">保密</option>
+                    </select></p>
+            </div>
+
+            <div class="tableRow">
+                <p><label for="MBTI">MBTI：</label></p>
+                <!-- 输入，类型:文本 -->
+                <p><input type="text" id="MBTI" name="MBTI"></p>
+            </div>
+            <!-- 提交框 -->
+            <button type="submit">提交</button>
+        </form>
+    </div>
+    <!-- 主体部分结束 -->
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2023 Copyright S001</p>
+        <p>邮箱：2466290036@qq.com</p>
+    </footer>
+    <!-- 页脚部分结束 -->
+</body>
+
+</html>

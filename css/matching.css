@@ -1,0 +1,118 @@
+body {
+    /* 设置背景图片 */
+    background-image: url("../images/background1.webp");
+    /* 图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景覆盖窗口 */
+    background-size: cover;
+    /* 将默认margin清零 */
+    margin: 0;
+    text-align: center;
+
+}
+
+#top {
+    margin: 0;
+    /* 设置页眉高度 */
+    height: 80px;
+}
+
+header img.hleft {
+    /* 设置高度与页眉一致，宽度自动，保持纵横比 */
+    height: 80px;
+    width: auto;
+    /* 左浮动 */
+    float: left;
+}
+
+header img.hright {
+    /* 设置高度与页眉一致，宽度自动，保持纵横比 */
+    height: 80px;
+    width: auto;
+    /* 右浮动 */
+    float: right;
+}
+
+nav ul {
+    /* 删除项目符号 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* 左浮动 */
+    float: left;
+}
+
+nav ul li a {
+    /* 以区块元素分布 */
+    display: block;
+    color: #ffffff;
+    /* 去除下划线 */
+    text-decoration: none;
+    padding: 14px 16px;
+    width: 5em;
+    font-size: 22px;
+}
+
+#wrap {
+    /* 凝胶分布 */
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 100px;
+    width: 100%;
+    /* 设置字体颜色 */
+    color: aliceblue;
+}
+
+h2 {
+    /* 设置字体颜色 */
+    color: #e7e7e7;
+}
+
+.word {
+    /* 设置字体 */
+    color: #eae7e7;
+
+    font-style: italic;
+}
+
+tableRow {
+    /* 设置宽度 */
+    width: 70%;
+    /* 居中 */
+    text-align: center;
+}
+
+form {
+    /* 以表格元素展现 */
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e0dfde;
+    /* 居中 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.tableRow {
+    /* 以表格行元素显示 */
+    display: table-row;
+}
+
+div.tableRow p {
+    /* 以表格单元显示 */
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    clear: both;
+    color: aliceblue;
+}

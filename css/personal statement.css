@@ -1,0 +1,106 @@
+body {
+    /* 设置背景图片 */
+    background-image: url("../images/background1.webp");
+    /* 图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景覆盖窗口 */
+    background-size: cover;
+    /* 将默认margin清零 */
+    margin: 0;
+    text-align: center;
+}
+
+#top {
+    margin: 0;
+    height: 80px;
+}
+
+header img.hleft {
+    height: 80px;
+    /* 锁定图片纵横比 */
+    width: auto;
+    /* 左浮动 */
+    float: left;
+}
+
+header img.hright {
+    height: 80px;
+    /* 锁定图片纵横比 */
+    width: auto;
+    /* 右浮动 */
+    float: right;
+}
+
+nav ul {
+    /* 删除项目符号 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* 左浮动 */
+    float: left;
+}
+
+nav ul li a {
+    /* 规定元素以区块方式呈现 */
+    display: block;
+    color: #ffffff;
+    /* 去掉下划线 */
+    text-decoration: none;
+    padding: 14px 16px;
+    width: 5em;
+    font-size: 22px;
+}
+
+aside {
+    /* 右浮动 */
+    float: right;
+    width: 10%;
+    color: #f9f2f2;
+    margin-top: 15%;
+    margin-right: 3%;
+    margin-left: 0;
+    background-color: rgb(3, 120, 159);
+}
+
+aside a:link {
+    /* 定义点击时链接颜色 */
+    color: rgb(247, 34, 34);
+}
+
+.word {
+    color: #f9f9f9;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+table {
+    /* 折叠边框 */
+    border-collapse: collapse;
+    width: 70%;
+    /* 将表格居中 */
+    margin: 0 auto;
+    /* 定义字体 */
+    font-family: 'Courier New', Courier, monospace;
+    color: #e8e5e5;
+    /* 定义字体大小 */
+    font-size: 35px; 
+}
+
+td,th {
+    border: 2px solid;
+}
+
+caption {
+    /* 设置字体大小 */
+    font-size: 44px;
+}
+
+footer {
+    /* 清除float效果 */
+    clear: both;
+    color: #eceaea;
+}

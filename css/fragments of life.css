@@ -1,0 +1,138 @@
+body {
+    /* 设置背景图片 */
+    background-image: url("../images/background4.webp");
+    /* 图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景覆盖窗口 */
+    background-size: cover;
+    /* 将默认margin清零 */
+    margin: 0;
+    text-align: center;
+}
+
+#top {
+    /* 设置页眉区高度 */
+    margin: 0;
+    height: 80px;
+}
+
+header img.hleft {
+    /* 设置高度，与页眉区一致 */
+    height: 80px;
+    /* 设置宽度，保持图片纵横比 */
+    width: auto;
+    /* 左浮动 */
+    float: left;
+}
+
+header img.hright {
+    height: 80px;
+    width: auto;
+    /* 右浮动 */
+    float: right;
+}
+
+nav ul {
+    /* 去除项目前标记 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+nav li a {
+    display: block;
+    width: 80px;
+    /* 去除下划线 */
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav li a {
+    /* 设置字体颜色 */
+    color: aliceblue;
+}
+
+section#wrap {
+    /* 凝胶布局 */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #f1eded;
+}
+
+p.words {
+    /* 凝胶布局 */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* 居中 */
+    text-align: center;
+    /* 设置字体颜色 */
+    color: #f1eded;
+}
+
+p#eatlist {
+    /* 凝胶分布 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+}
+
+img.eat {
+    /* 设置图片宽度，控制纵横比 */
+    width: 30%;
+    height: auto;
+}
+
+p#playlist1 {
+    /* 凝胶分布 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img.play1 {
+    /* 设置图片宽度，控制纵横比 */
+    width: 20%;
+    height: auto;
+}
+
+p#playlist2 {
+    /* 凝胶分布 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img.play2 {
+    /* 设置图片宽度，控制纵横比 */
+    width: 40%;
+    height: auto;
+}
+
+p#skylist {
+    /* 凝胶分布 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img.sky {
+    /* 设置图片宽度，控制纵横比 */
+    width: 20%;
+    height: auto;
+}
+
+footer {
+    clear: both;
+    color: aliceblue;
+}

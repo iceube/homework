@@ -1,0 +1,111 @@
+body {
+    /* 设置背景图片 */
+    background-image: url("../images/background3.webp");
+    /* 图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景覆盖窗口 */
+    background-size: cover;
+    /* 将默认margin清零 */
+    margin: 0;
+    text-align: center;
+}
+
+#top {
+    margin: 0;
+    /* 设置页眉区高度 */
+    height: 80px;
+}
+
+header img.hleft {
+    /* 控制高度与页眉区一致 */
+    height: 80px;
+    /* 控制图片纵横比不变 */
+    width: auto;
+    /* 左浮动 */
+    float: left;
+}
+
+header img.hright {
+    height: 80px;
+    width: auto;
+    /* 右浮动 */
+    float: right;
+}
+
+nav ul {
+    /* 去除项目编号 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+nav li a {
+    /* 以区块元素显示 */
+    display: block;
+    width: 80px;
+    /* 去除下划线 */
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav li a {
+    color: aliceblue;
+}
+
+section.passage {
+    /* 凝胶布局 */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section img {
+    /* 设置宽度 */
+    width: 30%;
+    /* 控制图片纵横比不变 */
+    height: auto;
+    /* 左浮动 */
+    float: left;
+}
+
+section h1 {
+    /* 设置字体颜色 */
+    color: aliceblue;
+    font-size: 2.2em;
+}
+
+section h2 {
+    /* 设置字体颜色 */
+    color: aliceblue;
+}
+
+section p {
+    /* 设置宽度 */
+    width: 30%;
+    height: 350px;
+    /* 设置居中 */
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 19px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+aside {
+    /* 设置宽度 */
+    width: 15%;
+    /* 右浮动 */
+    float: right;
+    margin-right: 5%;
+    color: aliceblue;
+    background-color: #fe8b8b;
+}
+
+footer {
+    /* 清除浮动 */
+    clear: both;
+    color: aliceblue;
+}
